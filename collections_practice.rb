@@ -66,9 +66,9 @@ new_array << string
 end 
 end 
 new_array 
-  
 end 
   
+def sum_array(array)
   
   
   
