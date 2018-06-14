@@ -71,6 +71,15 @@ end
 sum
 end 
 
+def add_s(array)
+  array.each_with_index.collect |element,index|
+  if element == array[index]
+    element =array[index]
+  else 
+    element << "s"
+  end 
+end 
+end 
   
   
   
