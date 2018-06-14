@@ -77,9 +77,9 @@ def add_s(array)
   if element == array[index]
     element =array[index]
   else 
-    element = "#{element}+s"
+    new_element = "#{element}+s"
   end 
-  new_array << element
+  new_array << new_element
 end 
 new_array
 end 
