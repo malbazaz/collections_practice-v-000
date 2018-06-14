@@ -34,4 +34,5 @@ def sort_array_char_count(array)
   
   def swap_elements(array)
     array[1]<=>[2]
+    array 
 end 
