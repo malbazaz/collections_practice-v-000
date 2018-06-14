@@ -20,11 +20,11 @@ def sort_array_desc(array)
 end 
 
 def sort_array_char_count(array)
-  array.each do |element|
-  element.sort do |a,b|
+new_array=[]
+  new_array = array.sort do |a,b|
     a.length <=> b.length 
-  end 
-  end 
+  end
+  new_array 
   end 
   
   def swap_elements(array)
