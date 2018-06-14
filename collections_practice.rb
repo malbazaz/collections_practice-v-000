@@ -74,8 +74,8 @@ end
 def add_s(array)
   new_array=[]
   array.each_with_index.collect do |element,index|
-  if element == array[index]
-  new_element =array[index]
+  if element == array[1]
+  new_element = array[index]
   else 
     new_element = "#{element}+s"
   end 
