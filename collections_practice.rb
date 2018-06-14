@@ -33,6 +33,9 @@ def sort_array_char_count(array)
   end 
   
   def swap_elements(array)
-    array[1]<=>[2]
+  old2nd=  array[1]
+  old3rd= array[2]
+  array[1]= old3rd
+  array[2]=old2nd
     array 
 end 
