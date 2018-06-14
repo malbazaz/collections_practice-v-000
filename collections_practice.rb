@@ -65,7 +65,7 @@ if string.start_with?("a")
 new_array << string
 end 
 end 
-array 
+new_array 
   
 end 
   
