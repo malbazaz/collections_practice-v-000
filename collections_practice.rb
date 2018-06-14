@@ -49,7 +49,7 @@ sub_array=[]
 final_array= []
 array.each do |string|
 sub_array = string.split
-subarray[2] = "$"
+sub_array[2] = "$"
 newstring = sub_array.join
 final_array << newstring
 end
