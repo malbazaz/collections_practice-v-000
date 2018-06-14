@@ -57,11 +57,11 @@ final_array
 end 
 
 def find_a(array)
-  new_array=[]
+
 
 array.select do |string|
-newstring =  string.start_with?("a")
-  new_array << newstring
+string.start_with?("a")
+
 end 
 array 
   
