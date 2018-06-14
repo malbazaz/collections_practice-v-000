@@ -72,14 +72,16 @@ sum
 end 
 
 def add_s(array)
+  new_array=[]
   array.each_with_index.collect do |element,index|
   if element == array[index]
     element =array[index]
   else 
     element = "#{element}+s"
   end 
+  new_array << element
 end 
-array
+new_array
 end 
   
   
