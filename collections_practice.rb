@@ -45,3 +45,21 @@ array.reverse
 end 
 
 def kesha_maker(array)
+sub_array=[]
+final_array= []
+array.each do |string|
+sub_array = string.split
+subarray[2] = "$"
+newstring = sub_array.join
+final_array << newstring
+end
+final_array
+end 
+
+  
+  
+  
+  
+  
+  
+  
